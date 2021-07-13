@@ -11,7 +11,7 @@ body {
 
 /* Header */
 .header-container {
-    background: url(images/csm_electronic_workshop_34f58e92ea\ 1.svg);
+    background: url(/assets/images/csm_electronic_workshop_34f58e92ea\ 1.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -53,9 +53,14 @@ header p {
 
 .buttons {
     background-color: #F0EDF2;
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.home-nav-wrap {
+    display: flex;
     justify-content: space-between;
 }
 
