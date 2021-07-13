@@ -7,59 +7,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* Navigation */
-
-.nav-container {
-    height: 72px;
-    background: #7EAF4E;
-    border-radius: 0px 0px 20px 20px;
-}
-
-.wrapper {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 72px;
-}
-
-nav ul {
-    display: flex;
-}
-
-nav .logo {
-    font-family: "Condiment", sans-serif;                   /*needs changing*/
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    color: #F0EDF2;
-}
-
-.nav-items li {
-    list-style: none;
-    margin-right: 100px;
-}
-
-.nav-items li:nth-last-of-type(1) {
-    margin: 0;
-}
-
-.nav-items li a {
-    color: #F0EDF2;
-    font-family: "Condiment", sans-serif;                   /*needs changing*/
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    text-decoration: none;
-    align-items: baseline;
-
-}
-
-/* End of Navigation */
 
 
 /* Header */
