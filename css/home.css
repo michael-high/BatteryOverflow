@@ -16,8 +16,11 @@ body {
     background-position: center;
     background-size: cover;
     height: calc(60vh - 72px);
-    display: flex;
-    align-items: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+
     
 }
 
@@ -137,6 +140,7 @@ header p {
 
 .display {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .lawn-pic {
@@ -153,15 +157,25 @@ header p {
 
 .lawn-title {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     
+    
 }
-.lawn-title h1 {
+.lawn-title a {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 30px;
     line-height: 18px;
     color: #3F7D20;
+    transition: .5s;
+
 }
+
+.lawn-title a:hover {
+    transform: translateY(-5px);
+}
+
+
 .lawn-title ul {
     display: flex;
 }
@@ -174,20 +188,37 @@ header p {
     list-style: none;
 }
 
-.whole-descrip {
+.lawn-descrip {
     display: flex;
     background: url(/assets/images/descrip\ background.svg);
+    border-radius: 25px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    justify-content: space-between;
+    height: 200px;
+}
+.seperator img{
+    height: 150px;
+}
+.seperator {
+    align-self: center;
+    margin: 20px;
 }
 
 .diff-and-descrip {
     display: block;
+    margin: 20px;
+    margin-right: 150px;
+    text-align: center;
+}
+.diff-and-descrip h1{
+    
 }
 
 .difficulty {
     display: flex;
+    justify-content:center;
 }
 
 .difficulty h1 {
@@ -204,6 +235,11 @@ header p {
     color: #F92020;
 }
 
+.tags {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 
 
 /* End of suggested projects section */
