@@ -1,0 +1,10 @@
+@import "nav.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
