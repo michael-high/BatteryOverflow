@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-/* @import "nav.css"; */
-@import "nav1.css";
-@import "design.css"
-=======
+
 @import "nav.css";
-@import "home.css";
->>>>>>> ce3c92e90f4e04fe6b1887723f6022217c25c123
+@import "home.css"
