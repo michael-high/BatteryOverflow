@@ -111,8 +111,9 @@ header p {
 .projects-wrap {
     display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
 }
 
 .projects {
@@ -131,7 +132,6 @@ header p {
 
 .display {
     display: flex;
-    justify-content: left;
 }
 
 .lawn-pic {
@@ -142,10 +142,20 @@ header p {
     height: 275px;
 }
 
+.descrip-wrap {
+    display: block;  
+}
+
 .lawn-title {
     display: flex;
     width: 100%;
     
+}
+.lawn-title h1 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #3F7D20;
 }
 .lawn-title ul {
     display: flex;
@@ -159,6 +169,35 @@ header p {
     list-style: none;
 }
 
+.whole-descrip {
+    display: flex;
+    background: url(/assets/images/descrip\ background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.diff-and-descrip {
+    display: block;
+}
+
+.difficulty {
+    display: flex;
+}
+
+.difficulty h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #000000;
+}
+
+.difficulty h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #F92020;
+}
 
 
 
