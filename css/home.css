@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+/* Header */
+.header-container {
+    background: url(/assets/images/csm_electronic_workshop_34f58e92ea\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(60vh - 72px);
+    display: flex;
+    align-items: center;
+    
+}
+
+header {
+    display: block;
+    justify-content: space-between;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+header h1 {
+    font-family: "Arvo", sans-serif;                           /*needs changing*/
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 35px;
+    color: #FFFFFF;
+    justify-content: center;
+    
+}
+
+header p {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+/* End of Header */
+
+/*Buttons section */
+
+.buttons {
+    background-color: #F0EDF2;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explore-icon {
+    justify-content: center;
+    outline:auto;
+    outline-offset: 20px;
+    margin: 60px;
+    margin-left: 0px;
+    max-width: 230px;
+}
+
+.safety-icon {
+    justify-content: center;
+    outline:auto;
+    outline-offset: 20px;
+    margin: 60px;
+    max-width: 230px;
+}
+
+
+.profile-icon {
+    justify-content: center;
+    outline:auto;
+    outline-offset: 20px;
+    margin: 60px;
+    margin-right: 0px;
+    max-width: 230px;
+}
+
+/* End of buttons section */
+
+/* Suggested projects section */
+
+.suggested-projects {
+    background-color: #F0EDF2;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.projects-wrap {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projects {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.projects h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    color: #6A6D76;
+}
+
+.display {
+    display: flex;
+    justify-content: left;
+}
+
+.lawn-pic {
+    margin-right: 30px;
+}
+.lawn-pic img{
+    justify-self: left;
+    height: 275px;
+}
+
+.lawn-title {
+    display: flex;
+    width: 100%;
+    
+}
+.lawn-title ul {
+    display: flex;
+}
+
+.profile-icon {
+    border-radius: 50%;
+}
+
+.vote-items {
+    list-style: none;
+}
+
+
+
+
+/* End of suggested projects section */
