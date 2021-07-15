@@ -16,9 +16,17 @@ body {
     background-position: center;
     background-size: cover;
     height: calc(60vh - 72px);
-    display: flex;
-    align-items: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+
     
+}
+
+.intro-content {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
@@ -111,8 +119,9 @@ header p {
 .projects-wrap {
     display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
 }
 
 .projects {
@@ -131,7 +140,7 @@ header p {
 
 .display {
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
 }
 
 .lawn-pic {
@@ -142,11 +151,31 @@ header p {
     height: 275px;
 }
 
+.descrip-wrap {
+    display: block;  
+}
+
 .lawn-title {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     
+    
 }
+.lawn-title a {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 18px;
+    color: #3F7D20;
+    transition: .5s;
+
+}
+
+.lawn-title a:hover {
+    transform: translateY(-5px);
+}
+
+
 .lawn-title ul {
     display: flex;
 }
@@ -159,7 +188,58 @@ header p {
     list-style: none;
 }
 
+.lawn-descrip {
+    display: flex;
+    background: url(/assets/images/descrip\ background.svg);
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    height: 200px;
+}
+.seperator img{
+    height: 150px;
+}
+.seperator {
+    align-self: center;
+    margin: 20px;
+}
 
+.diff-and-descrip {
+    display: block;
+    margin: 20px;
+    margin-right: 150px;
+    text-align: center;
+}
+.diff-and-descrip h1{
+    
+}
+
+.difficulty {
+    display: flex;
+    justify-content:center;
+}
+
+.difficulty h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #000000;
+}
+
+.difficulty h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #F92020;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
 
 
 /* End of suggested projects section */
