@@ -7,6 +7,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    display: block;
 }
 
 
@@ -61,14 +62,11 @@ header p {
 
 /* End of Header */
 
-body {
-    margin: 0;
-    padding: 0;
-    background:  #F0EDF2;
-}
+
 .search-box {
-    position: absolute;
-    top: 50%;
+    position:  absolute;
+    justify-content: center;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #7EAF4E;
@@ -111,4 +109,26 @@ body {
     width: 0px;
     text-decoration-color: #F0EDF2;
     
+}
+
+.popular {
+    margin-top: 5%;
+}
+
+.popular-title {
+    justify-content: left;
+    margin-left: 25px;;
+}
+
+.popular-title h1 {
+    color: #96CA4D;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.popular-body {
+    background: #7EAF4E; 
+    height: 40vh;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
