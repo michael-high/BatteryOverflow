@@ -2,8 +2,15 @@
     text-decoration: none;
     color: var(--offwhite);
 }
-.snav-menu li{
+.snav-link:hover{
+    color: var(--lightgreen);
+}
+.mini-snav-link:hover{
+    color: var(--lightgreen);
+}
+.snav-item{
     list-style: none;
+    margin-top:1em;
 }
 .safetyWrap{
     margin-top: 20px;
@@ -31,7 +38,7 @@
     margin-top: 1em;
 }
 
-.safetyContent h1{
+.safetyContent h3{
     margin-top: 1em;
     margin-left: 3em;
 }
