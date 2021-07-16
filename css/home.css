@@ -41,8 +41,7 @@ header h1 {
     font-family: "Arvo", sans-serif;                           /*needs changing*/
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 35px;
+    font-size: 70px;
     color: #FFFFFF;
     justify-content: center;
     
@@ -52,7 +51,7 @@ header p {
     font-family: Arvo;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 18px;
     color: #FFFFFF;
     align-items: center;
