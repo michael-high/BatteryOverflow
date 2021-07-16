@@ -1,9 +1,9 @@
 :root{
-    --darkgray: #0d0a0b;
-    --lightgray: #454955;
-    --offwhite: #f3eff5;
-    --lightgreen: #7ec11f;
-    --medgreen: #5f9f20;
-    --darkgreen: #3f7d20;
-    --darkergreen: #375d30;
+    --darkgray: #0d0a0b; /*rgb(13,10,11)*/
+    --lightgray: #454955; /*rgb(69,73,85)*/
+    --offwhite: #f3eff5; /*rgb(243,239,245)*/
+    --lightgreen: #7ec11f; /*rgb(126,193,31)*/
+    --medgreen: #5f9f20; /*rgb(95,159,32)*/
+    --darkgreen: #3f7d20; /*rgb(63,125,32)*/
+    --darkergreen: #375d30; /*rgb(55,93,48)*/
 }

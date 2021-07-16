@@ -1,0 +1,37 @@
+.snav-item a{
+    text-decoration: none;
+    color: var(--offwhite);
+}
+.snav-menu li{
+    list-style: none;
+}
+.safetyWrap{
+    margin-top: 20px;
+    display:flex;
+    align-items: center;
+
+}
+.safetyContent{
+    flex:5;
+    margin-left: 5vw;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(126,193,31,0.7);
+    box-shadow: 1em 1em 2em  var(--offwhite) inset;
+}
+.safetyNav{
+    padding: 20px 20px 20px 20px;
+    flex:2;
+    align-self: right;
+    margin-right: 5vw;
+    background-color: rgb(13,10,11,0.5);
+    
+}
+.safetyContent p{
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.safetyContent h1{
+    margin-top: 1em;
+    margin-left: 3em;
+}
