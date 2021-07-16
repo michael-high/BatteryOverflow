@@ -158,6 +158,7 @@ header p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    transition: .5s;
     
     
 }
@@ -166,11 +167,15 @@ header p {
     font-size: 30px;
     line-height: 18px;
     color: #3F7D20;
-    transition: .5s;
+    
 
 }
 
-.lawn-title a:hover {
+.lawn-title h1 {
+    transition: .5s;
+}
+
+.lawn-title h1:hover {
     transform: translateY(-5px);
 }
 
