@@ -209,7 +209,7 @@ header p {
 .diff-and-descrip {
     display: block;
     margin: 20px;
-    margin-right: 150px;
+    margin-right: 300px;
     text-align: center;
 }
 .diff-and-descrip h1{
@@ -219,6 +219,10 @@ header p {
 .difficulty {
     display: flex;
     justify-content:center;
+}
+
+.description {
+    max-width: max-content;
 }
 
 .difficulty h1 {
@@ -241,5 +245,37 @@ header p {
     margin: 20px;
 }
 
+.up-arrow {
+    height: 35px;
+    position: relative;
+    transition: .2s;
+    margin: 5px;
+}
+
+.down-arrow {
+    height: 35px;
+    position: relative;
+    transition: .2s;
+    margin: 5px;
+}
+
+.vote-items p {
+    font-size: 30px;
+    color: #3F7D20;
+    margin: 5px;
+}
+.up-arrow:hover {
+    transform: translateY(-5px);
+}
+
+.down-arrow:hover {
+    transform: translateY(5px);
+}
+
+
+.prof {
+    height: 50px;
+    border-radius: 200px;
+}
 
 /* End of suggested projects section */

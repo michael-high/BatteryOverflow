@@ -8,3 +8,201 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+/* top half start*/
+
+.project-top {
+    background-color:#F0EDF2;
+}
+
+
+.name-wrap {
+    padding: 40px 0px 40px 20px;
+    display: flex; 
+    align-items: center;
+  
+}
+
+.prof {
+    height: 50px;
+    border-radius: 200px;
+    margin-left: 100px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    color: #3F7D20;
+    padding-left: 20px;
+    padding-right: 400px;
+
+}
+.level {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 19px;
+    background-color: #F92020;
+    padding: 12px 12px;
+}
+
+.description {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color:#96CA4D;
+    padding: 5px 20px 5px 14px;
+    border-radius: 200px;
+    margin-left: 40px;
+}
+
+.archive {
+    padding-left: 70px;
+    height: 25px;
+}
+
+.more {
+    height: 25px;
+}
+
+.proj-pic {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.left {
+    height: 50px;
+    margin-right: 50px;
+    border-radius: 100px;
+}
+
+.center {
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.right {
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 100px;
+}
+
+.dots {
+    display: block;
+    margin: auto; 
+    padding-bottom: 20px;
+    width: 200px;
+}
+
+/* top half stop*/
+
+
+
+/* bottom half start*/
+
+.how-wrap {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #96CA4D;
+    color: white;
+    font-size: 20px;
+}
+
+.supplies-header {
+    padding-top: 25px; 
+    padding-bottom: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.supplies {
+    margin-left: 60px;
+    padding-bottom: 20px;
+}
+
+.how-header {
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
+.paragraph {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+}
+
+.category-container {
+    background-color: #7EAF4E;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px 40px;
+}
+
+.cat-types {
+    font-size: 15px;
+    display: flex; 
+    align-items:flex-start;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.soldering {
+    background: #96CA4D;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.circuitry {
+    background: #3F7D20;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.welding {
+    background: #96CA4D;
+    border-radius: 100px;
+    padding: 10px 20px; 
+    margin-right: 20px; 
+}
+
+.wiring {
+    background: #96CA4D;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.mechanical {
+    background: #96CA4D;
+    border-radius: 100px;
+    padding: 10px 20px;
+}
+/* bottom half stop */
+
+.comment-section {
+    background: #F0EDF2;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 3px solid black;
+    display: flex;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.comment {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.word {
+    margin-top: 7px;
+}
