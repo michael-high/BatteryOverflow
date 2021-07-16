@@ -1,4 +1,7 @@
-@import "variables.css";
-@import "nav.css";
+@import "explore.css";
 @import "home.css";
+@import "nav.css";
+@import "profile.css";
+@import "project.css";
 @import "safety.css";
+@import "variables.css";
