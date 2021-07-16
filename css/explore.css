@@ -3,11 +3,13 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    
 }
 
 body {
     font-family: "Roboto", sans-serif;
     display: block;
+    background: #F0EDF2; 
 }
 
 
@@ -67,7 +69,7 @@ header p {
     position:  absolute;
     justify-content: center;
     top: 15%;
-    left: 50%;
+    left: 47%;
     transform: translate(-50%, -50%);
     background: #7EAF4E;
     height:50px;
@@ -75,7 +77,7 @@ header p {
     padding: 10px;
 }
 .search-box:hover > .search-text{
-    width: 240px;
+    width: 300px;
     padding: 0 6px;
 }
 
@@ -131,4 +133,43 @@ header p {
     background: #7EAF4E; 
     height: 40vh;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+
+}
+
+.projects-slide {
+    margin-left: auto;
+}
+.skip-forward {
+    height: 50px;
+    justify-content: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.tags {
+    background: #F0EDF2; 
+    margin: 10px;
+}
+
+.tags-title {
+    justify-content: left;
+    margin-left: 25px;
+
+}
+
+.tags-title h1 {
+    color: #96CA4D;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.tags-body {
+    background: #F0EDF2; 
+    height: 40vh;
+    
 }
