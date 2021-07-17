@@ -15,21 +15,24 @@
 .safetyWrap{
     margin-top: 20px;
     display:flex;
-    align-items: center;
+    /* align-items: center; */
 
 }
 .safetyContent{
     flex:5;
     margin-left: 5vw;
     padding: 20px 20px 20px 20px;
-    background-color: rgb(126,193,31,0.7);
+    /* background-color: rgb(126,193,31,0.7); */
+    background-color: rgb(55,93,48, 0.75);
+    border-radius: 50px;
     box-shadow: 1em 1em 2em  var(--offwhite) inset;
 }
 .safetyNav{
     padding: 20px 20px 20px 20px;
     flex:2;
-    align-self: right;
+    /* align-self: right; */
     margin-right: 5vw;
+    border-radius: 50px;
     background-color: rgb(13,10,11,0.5);
     
 }
