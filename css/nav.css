@@ -53,7 +53,7 @@
     transition: all 0.3s ease-in-out;
     background-color: #F0EDF2;
 }
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 1000px) {
     .nav-menu {
         position: fixed;
         left: -100%;
