@@ -1,0 +1,48 @@
+.xpWrap{
+    height:100%;
+    background-color: rgb(55,93,48);
+}
+
+.xpProfile{
+    background-color: rgb(95,159,32);
+    color: var(--offwhite);
+    border: 3px rgb(13,10,11);
+    margin: 50px 15vw 30px 15vw;
+    padding: 20px 30px;
+    border-radius: 45px;
+    box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.xpAwards{
+    background-color: rgb(55,93,48);
+}
+.xpAchievements{
+    background-color: rgb(55,93,48);
+}
+.xp-bar{
+    height: 35px;
+    width: 200px;
+    background-color: var(--darkgray);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px 0px 5px;
+    border-radius: 5px;
+}
+.xp-cell-charged{
+    height:25px;
+    width: 15px;
+    border: 1px var(--offwhite) solid;
+    background-color: var(--lightgreen);
+}
+.xp-cell-half{
+    height:25px;
+    width: 15px;
+    border: 1px var(--offwhite) solid;
+    background-color: rgb(126,193,31, 0.5);
+}
+.xp-cell-empty{
+    height:25px;
+    width: 15px;
+    border: 1px var(--offwhite) solid;
+    background-color: rgb(126,193,31, 0.1);
+}
