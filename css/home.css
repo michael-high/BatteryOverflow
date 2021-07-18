@@ -44,6 +44,7 @@ header h1 {
     font-size: 70px;
     color: #FFFFFF;
     justify-content: center;
+    line-height: 70px;
     
 }
 
@@ -240,8 +241,9 @@ header p {
 .diff-and-descrip {
     display: block;
     margin: 20px;
-    margin-right: 300px;
-    text-align: center;
+    width: 800px;
+    text-align: left;
+
 }
 .diff-and-descrip h1{
     
@@ -249,11 +251,12 @@ header p {
 
 .difficulty {
     display: flex;
-    justify-content:center;
+    justify-content:left;
 }
 
 .description {
-    max-width: max-content;
+    justify-content: left;
+
 }
 
 .difficulty h1 {
@@ -261,6 +264,7 @@ header p {
     font-weight: normal;
     font-size: 28px;
     color: #000000;
+    margin-bottom: 10px;
 }
 
 .difficulty h2 {
@@ -268,12 +272,20 @@ header p {
     font-weight: normal;
     font-size: 28px;
     color: #F92020;
+    margin-bottom: 10px;
 }
 
 .tags {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+    margin: 10px;
+    background: transparent;
+    margin-left: -20px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.lawnm-tag {
+    width: 60px;
 }
 
 .up-arrow {
