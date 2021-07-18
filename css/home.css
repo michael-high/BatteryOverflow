@@ -88,30 +88,30 @@ header p {
 }
 
 .explore-bttn {
-    transition: transform .7s ease-in-out;
+    transition: transform .4s ease-in-out;
     margin: 10px;
 }
 
 .explore-bttn:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 .safety-bttn {
-    transition: transform .7s ease-in-out;
+    transition: transform .4s ease-in-out;
     margin: 10px;
 }
 
 .safety-bttn:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 .profile-bttn {
-    transition: transform .7s ease-in-out;
+    transition: transform .4s ease-in-out;
     margin: 10px;
 }
 
 .profile-bttn:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 .safety-icon {
@@ -212,12 +212,11 @@ header p {
     display: flex;
 }
 
-.profile-icon {
-    border-radius: 50%;
-}
+
 
 .vote-items {
     list-style: none;
+    margin-right: 20px;
 }
 
 .lawn-descrip {
@@ -291,14 +290,14 @@ header p {
 .up-arrow {
     height: 35px;
     position: relative;
-    transition: transform .7s ease-in-out;
+    transition: transform .4s ease-in-out;
     margin: 5px;
 }
 
 .down-arrow {
     height: 35px;
     position: relative;
-    transition: transform .7s ease-in-out;
+    transition: transform .4s ease-in-out;
     margin: 5px;
 }
 
@@ -307,18 +306,21 @@ header p {
     color: #3F7D20;
     margin: 5px;
 }
+
 .up-arrow:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 .down-arrow:hover {
-    transform: translateY(5px);
+    transform: translateY(8px);
 }
 
 
-.prof {
-    height: 50px;
+.profile-home-icon {
     border-radius: 200px;
+    width: 45px;
 }
+
+
 
 /* End of suggested projects section */
