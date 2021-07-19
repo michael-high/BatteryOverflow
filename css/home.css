@@ -10,6 +10,13 @@ body {
 
 
 /* Header */
+
+
+.logo-img {
+    width: 200px;
+    
+}
+
 .header-container {
     background: url(/assets/images/csm_electronic_workshop_34f58e92ea\ 1.svg);
     background-repeat: no-repeat;
