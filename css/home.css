@@ -10,6 +10,13 @@ body {
 
 
 /* Header */
+
+
+.logo-img {
+    width: 200px;
+    
+}
+
 .header-container {
     background: url(/assets/images/csm_electronic_workshop_34f58e92ea\ 1.svg);
     background-repeat: no-repeat;
@@ -280,38 +287,46 @@ header p {
     margin-left: -20px;
     margin-top: auto;
     margin-bottom: auto;
-
+    display: block;
 }
-
+a {
+    text-decoration: none;
+}
 .lawnm-tag {
     width: 60px;
+    margin: 4px;
+    filter: drop-shadow(0px 4px 2px #646874);
+    transition: transform .1s;
 }
 
-.up-arrow {
+.lawnm-tag:active {
+    transform: translateY(2px);
+    filter: drop-shadow(0px 3px 1px #646874);
+}
+
+.arrow {
     height: 35px;
     position: relative;
-    transition: transform .4s ease-in-out;
+    transition: transform .2s ease-in-out;
     margin: 5px;
 }
 
-.down-arrow {
-    height: 35px;
-    position: relative;
-    transition: transform .4s ease-in-out;
-    margin: 5px;
+.arrow, #count {
+    float: left;
 }
 
-.vote-items p {
+
+#count {
     font-size: 30px;
     color: #3F7D20;
     margin: 5px;
 }
 
-.up-arrow:hover {
+#up-arrow:hover {
     transform: translateY(-8px);
 }
 
-.down-arrow:hover {
+#down-arrow:hover {
     transform: translateY(8px);
 }
 
