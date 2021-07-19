@@ -62,29 +62,32 @@
 }
 .s-basic-content{
     flex:5;
-    padding: 0px 20px 200px 20px;
+    padding: 0px 20px 200px 100px;
     background-color: #96CA4D;
     color: var(--offwhite);
     box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
 
 }
 
-.achievement-bar{
+.course-bar{
+    margin-top: 20px;
     display:flex;
     background-color: #1A1A1B;
     padding: 10px 10px 10px 10px;
     border: 3px solid var(--offwhite);
     border-radius: 20px;
-    margin-bottom: 20px;
 }
-.ac-content{
+.course-content{
     align-self: center;
 }
-.ac-name{
+.course-name{
     font-size: large;
     margin-left: 10px;
     margin-bottom: 5px;
 }
-.ac-desc{
+.course-desc{
     font-size: small;
+}
+.s-basic-content h1{
+    margin: 20px 10px 20px 30px;
 }
