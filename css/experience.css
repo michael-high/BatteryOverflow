@@ -67,6 +67,7 @@
     width: 100%;
     height: auto;
     border-radius: 30px;
+    border: 3px solid var(--offwhite);
 }
 h2{
     margin-bottom: 15px;
