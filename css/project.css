@@ -152,6 +152,10 @@ body {
     color: white;
     font-weight: bold;
 }
+.cat-types a {
+    text-decoration: none;
+    color:#F0EDF2;
+}
 
 .soldering {
     background: #96CA4D;
