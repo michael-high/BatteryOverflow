@@ -202,6 +202,7 @@ header p {
     font-size: 30px;
     line-height: 18px;
     color: #3F7D20;
+    text-decoration: underline;
     
 
 }
@@ -271,6 +272,7 @@ header p {
     font-size: 28px;
     color: #000000;
     margin-bottom: 10px;
+    
 }
 
 .difficulty h2 {
