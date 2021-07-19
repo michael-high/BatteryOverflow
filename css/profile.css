@@ -8,3 +8,128 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.profile-container {
+    background-color: #D3E2C4;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 30px;
+}
+
+.profile-pic {
+    height: 300px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.caption {
+    list-style: none;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.username {
+    font-size: 35px;
+    color: #454955;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.title {
+    color: #3F3D3D;
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.verified {
+    height: 40px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.profile-choices {
+    display: flex;
+    list-style: none;
+    align-content: flex-start;
+   
+}
+.per-proj {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#C4C4C4;
+    border-style: solid;
+}
+
+.per-proj:hover {
+    color: grey;   
+}
+
+.contact {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#C4C4C4;
+    border-style: solid;
+}
+
+.contact:hover {
+    color: grey;   
+}
+
+.certif {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#C4C4C4;
+    border-style: solid;
+}
+
+.certif:hover {
+    color: grey;  
+}
+
+.pp-box {
+    background-color: #C4C4C4;
+    border-style: solid;
+    margin-left: 40px;
+    margin-right: 100px;
+    overflow-y: scroll;
+    height: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dif-proj-1 {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.dif-proj-2 {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.proj-1 {
+    height: 200px;
+}
+.proj-2 {
+    height: 200px;
+}
+.proj-3 {
+    height: 200px;
+}
+.proj-4 {
+    height: 200px;
+}
