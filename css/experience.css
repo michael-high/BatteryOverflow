@@ -13,7 +13,7 @@
     box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
 }
 .xpAwards{
-    background-color: #1A1A1B;
+    background-color: rgb(95,159,32);
     color: var(--offwhite);
     border: 3px rgb(13,10,11);
     margin: 50px 15vw 30px 15vw;
@@ -64,6 +64,29 @@
     
 }
 #awards-png{
-    width: 50%;
+    width: 100%;
     height: auto;
+    border-radius: 30px;
+}
+h2{
+    margin-bottom: 15px;
+}
+.achievement-bar{
+    display:flex;
+    background-color: #1A1A1B;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid var(--offwhite);
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.ac-content{
+    align-self: center;
+}
+.ac-name{
+    font-size: large;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.ac-desc{
+    font-size: small;
 }
