@@ -184,9 +184,9 @@ header p {
 
 .tags-header {
     display: flex;
-    justify-content: space-between;
-    margin-left:130px;
-    margin-right: 130px;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right: auto;
     position: relative;
     margin-bottom: -15px;
 }
