@@ -95,7 +95,7 @@
     display:flex;
 }
 .s-basic-content{
-    flex:5;
+    flex:7;
     padding: 0px 20px 200px 100px;
     background-color: #96CA4D;
     color: var(--offwhite);
