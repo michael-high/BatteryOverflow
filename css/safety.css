@@ -1,5 +1,5 @@
 .snav-menu{
-    position:sticky;
+    position:absolute;
 }
 .snav-item a{
     text-decoration: none;
@@ -43,8 +43,13 @@
     box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
 }
 .safetyNav{
+    /* top: 30%;
+    left: 80%;
+    position:absolute; */
     padding: 20px 20px 20px 20px;
     flex:2;
+    /* width: 400px;
+    height: 3000px; */
     /* align-self: right; */
     /* margin-right: 5vw;
     border-radius: 50px; */
@@ -164,11 +169,21 @@
 .course-testout a{
     color: var(--offwhite);
 }
+
+
+
+
+
+
+
+
+
+
+/* HELP---PREMIUM */
 #h-desc{
-    margin-left: 30px;
-    margin-top: 40px;
-    font-size: small;
-    line-height: 0.8em;;
+    margin-top: 20px;
+    color: var(--darkergreen);
+    font-size: large;
 }
 .help-topic-box{
     margin: 20px 20px 20px 20px;
@@ -187,9 +202,67 @@
     font-size: large;
 }
 #help-TITLE{
-    align-self: center;
+    color: var(--darkergreen)
+}
+.help-header{
+    margin: 50px 50px 50px 50px;
+    display:flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
 }
 .help-top{
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.search-box-help{
+    position: absolute;
+    justify-content: center;
+    top: 15%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background: #7EAF4E;
+    height:50px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box-help:hover > .search-text{
+    width: 300px;
+    padding: 0 6px;
+}
+
+.search-box-help:hover > .search-bttn{
+    background: white;
+
+}
+.search-wrap-help{
+    flex-grow: none;
+    flex-shrink: none;
+}
+.comment-desc{
+    display: flex;
+    flex-direction: column;
+}
+.v-level{
+    font-size: x-large;
+    color: var(--darkgreen)
+}
+.time-posted{
+    font-size: small;
+    color: var(--darkgreen)
+}
+.help-connect{
+    background-color: var(--medgreen);
+    color: var(--offwhite);
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border: solid 3px var(--lightgreen);
+    border-radius: 20px;
+}
+.help-yes:hover{
+    background-color: var(--lightgreen);
+}
+.help-no:hover{
+    background-color: red;
 }
