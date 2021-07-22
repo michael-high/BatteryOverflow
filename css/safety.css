@@ -133,3 +133,32 @@
 .course-testout a{
     color: var(--offwhite);
 }
+#h-desc{
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: small;
+    line-height: 0.8em;;
+}
+.help-topic-box{
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border: 3px solid var(--darkgreen);
+    background-color: var(--offwhite);
+    color: var(--darkgreen);
+    box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+
+}
+#help-topic-title{
+    color: var(--darkgreen);
+}
+.topic-desc p{
+    line-height: 1.5em;
+    font-size: large;
+}
+#help-TITLE{
+    align-self: center;
+}
+.help-top{
+    align-items: center;
+    justify-content: space-around;
+}
