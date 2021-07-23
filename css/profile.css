@@ -64,7 +64,7 @@ body {
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:#C4C4C4;
+    background-color:#E3E0E0;
     border-style: solid;
 }
 
@@ -72,12 +72,32 @@ body {
     color: grey;   
 }
 
+.post-button {
+    background-color: green;
+    font-weight: bold;
+    padding: 20px 10px 20px 100px;
+    margin-right: 1100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    border-radius: 100px;
+    transition: transform .3s ease-in-out;
+}
+.post {
+    color: white;
+    text-decoration: none;
+}
+
+.post-button:hover {
+    transform:translateY(-5px);
+}
+
 .contact {
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:#C4C4C4;
+    background-color:#E3E0E0;
     border-style: solid;
 }
 
@@ -90,7 +110,7 @@ body {
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color:#C4C4C4;
+    background-color:#E3E0E0;
     border-style: solid;
 }
 
@@ -99,12 +119,13 @@ body {
 }
 
 .pp-box {
-    background-color: #C4C4C4;
+    background-color:#E3E0E0;
+
     border-style: solid;
     margin-left: 40px;
     margin-right: 100px;
     overflow-y: scroll;
-    height: 300px;
+    height: 400px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -122,14 +143,59 @@ body {
 }
 
 .proj-1 {
-    height: 200px;
+    height: 250px;
+    margin-right: 20px;
 }
 .proj-2 {
-    height: 200px;
+    height: 210px;
+
 }
 .proj-3 {
-    height: 200px;
+    height: 210px;
+    margin-right: 20px;
 }
 .proj-4 {
-    height: 200px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.name-1 {
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;  
+}
+.name-1:hover {
+    color: green;
+}
+.name-2 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.name-2:hover {
+    color: green;
+}
+.name-3 {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.name-3:hover {
+    color: green;
+}
+.name-4 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.name-4:hover {
+    color: green;
+}
+
+.description {
+    font-weight:normal;
+    font-size: 15px;
+    margin-top: 70px;
 }

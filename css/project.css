@@ -118,6 +118,7 @@ body {
     padding-top: 25px; 
     padding-bottom: 10px;
     margin-left: 40px;
+    color: black;
     font-weight: bold;
 }
 
@@ -130,6 +131,7 @@ body {
     font-weight: bold;
     padding-bottom: 10px;
     margin-left: 40px;
+    color: black;
 }
 
 .paragraph {
